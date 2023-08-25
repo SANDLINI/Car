@@ -1,0 +1,35 @@
+.btn,
+.colored {
+  cursor: pointer;
+  height: auto;
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  font-size: 1.1rem;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.colored {
+  background-color: #ff4d2f;
+  color: white;
+}
+
+.boxImage {
+  width: 100%;
+}
+
+.tabContent {
+  height: auto;
+  text-align: center;
+}
+
+td,
+th {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+td {
+  width: 150px;
+}

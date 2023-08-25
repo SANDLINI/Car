@@ -1,0 +1,36 @@
+.main {
+  margin: auto;
+  height: auto;
+  position: relative;
+  background-color: whitesmoke;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.formLabel {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.formSelect,
+.formButton,
+.formInput {
+  width: 300px;
+  height: 35px;
+}
+
+.error,
+.succes {
+  text-align: center;
+}
+
+.error {
+  background-color: red;
+}
+
+.success {
+  color: white;
+  text-align: center;
+  background-color: green;
+}

@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@400;700;900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.navBarContainer {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.logo img {
+  margin-left: 40px;
+  width: 140px;
+  height: auto;
+}
+
+.navlinkContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  gap: 20px;
+}
+
+.navlink {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.signIn {
+  display: flex;
+  gap: 10px;
+  color: black;
+  align-items: center;
+}

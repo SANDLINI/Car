@@ -1,0 +1,23 @@
+.image {
+  width: 100%;
+  height: auto;
+  opacity: 0.2;
+}
+
+@media (max-width: 600px) {
+  .image {
+    height: 200px;
+  }
+}
+
+@media (min-width: 602px) {
+  .image {
+    height: 300px;
+  }
+}
+
+@media (min-width : 1200px) {
+  .image {
+    height:400px;
+  }
+}

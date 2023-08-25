@@ -1,0 +1,17 @@
+.main {
+  text-align: center;
+}
+
+.featuresContainer {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.features{
+    width: 300px;
+}
