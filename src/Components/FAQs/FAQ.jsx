@@ -18,11 +18,10 @@ export const FAQ = ({ Question, Answer }) => {
       }}
     >
       <Typography
-        
         sx={{
           cursor: "pointer",
           width: "90%",
-          px:2,
+          px: 2,
           mb: 4,
           py: 1,
         }}
